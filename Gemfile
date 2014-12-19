@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rspec-rails', group: :test
+group :test do
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "bower-rails"
 gem 'rails', '4.1.6'

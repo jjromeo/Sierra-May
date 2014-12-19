@@ -1,0 +1,2 @@
+@sierraMay = angular.module('sierraMay', [])
+
