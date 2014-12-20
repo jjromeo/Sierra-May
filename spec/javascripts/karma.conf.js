@@ -18,6 +18,7 @@ module.exports = function(config) {
     files: [
       'vendor/assets/bower_components/angular/angular.js',
       'vendor/assets/bower_components/angular-mocks/angular-mocks.js',
+      'vendor/assets/bower_components/angular-route/angular-route.js',
       'app/assets/javascripts/angular/main.js.coffee',
       'spec/javascripts/*_spec.js.coffee'
     ]
