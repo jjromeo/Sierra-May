@@ -1,3 +1,0 @@
-@sierraMay = angular.module('sierraMay', [])
-
-

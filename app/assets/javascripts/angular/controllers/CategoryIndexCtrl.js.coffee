@@ -3,5 +3,6 @@
   $http.get('./categories.json').success((data)->
     $scope.categories = data
   )
-
+  $scope.viewCategory = (id)->
+    $location.url "/categories/#{id}"
 ]

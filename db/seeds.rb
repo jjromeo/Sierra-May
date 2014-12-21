@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#
+Category.destroy_all
+
+
+shoes = Category.create(name: "Shoes")
+underwear = Category.create(name: "Underwear")
+accessories = Category.create(name: "Accessories")
+
+shoes.products.create(name: "Mockersons", description: "Classic great shoe")
+shoes.products.create(name: "High heels", description: "Painful but worth it!")
