@@ -1,4 +1,4 @@
-describe "SierraMay controllers", ->
+describe "SierraMay CategoryIndexCtrl", ->
   beforeEach module('sierraMay')
 
   someCategories = [
@@ -9,7 +9,7 @@ describe "SierraMay controllers", ->
 
   beforeEach inject(($injector)->
     @$httpBackend = $injector.get('$httpBackend')
-    categoryHandler = @$httpBackend.when('GET', './categories.json').respond(someCategories)
+    @$httpBackend.when('GET', './categories.json').respond(someCategories)
     @$rootScope = $injector.get('$rootScope')
     @$controller = $injector.get('$controller')
 

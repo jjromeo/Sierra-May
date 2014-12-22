@@ -23,7 +23,9 @@ module.exports = function(config) {
       'vendor/assets/bower_components/angular-route/angular-route.js',
       'app/assets/javascripts/main.js.coffee',
       'app/assets/javascripts/angular/controllers/CategoryIndexCtrl.js.coffee',
-      'spec/javascripts/*_spec.js.coffee'
+      'app/assets/javascripts/angular/controllers/CategoryShowCtrl.js.coffee',
+      'spec/javascripts/*_spec.js.coffee',
+      'spec/javascripts/controllers/*_spec.js.coffee'
     ]
 
   });

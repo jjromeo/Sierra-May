@@ -10,6 +10,10 @@
       templateUrl: '../templates/categories/show.html',
       controller: 'CategoryShowCtrl'
     }).
+    when('/categories/:category_id/products/:id', {
+      templateUrl: '../templates/products/show.html',
+      controller: 'ProductShowCtrl'
+    }).
     otherwise({
       templateUrl: '../templates/home.html',
       controller: 'HomeCtrl'
