@@ -7,9 +7,15 @@
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ CshH8j7RWtKtKf9Y0pMCaZQZs0OJI6+dIqShbEv0tDIChrC+oFwYflHm7eEOcQrk3hFJQdawxST6awUgJ/iVGwJ8IeXMVdvNogmWTqfSHRh2rrraCkAlKJo7dj94slgal/ExDdjuWaLCDo/KBjGLNr3GkJATqD1cCGWFfq079YiqYWufoIVCJGYkD5T4iKZkxPI6Wf6RYJvevPSK1zASwc+X2jSQytZSdT2Y+/GK1ITpl8SfsIJzJ/M3p31iteIl8leUaTAslrU7Ka5Y601+3nCWlVxUtXtpFSeEs1y7G9tNYvSSBo1+vi3ukJgVOQzjS/OjxamaoGmvp396xFLq08PR6xBSsrh+lOmpg5AKXiwKK0D3aHGORpm0a32gJNRpXrEkyx0ca0p7+8LShGnKxOZIp2zWhBWlH5O3vtGaZQPOmvLm3v+XloIcOS1yeXUiFoQB29TZ1PS1r/Ros7F28LwIk8+3K5pEDQhvvTyhaQCt4oXF+x1h1zyAzMR06N9oFCibeevaJTJ3QHqA3p6tBpAt/F08ed+QbSGRNB99e8Db4cjXoR/cLMBYMB0N/3h6QDpyQ1waUp70ipgeg6A166wMqYm2b0+/r5xUJ4IZNekCiwDK1r5E+vpCynn2rAwmf2Pf8wgqlg5bTz1goAtGZq5ixZojlUX78uWvSKlLr/XJ/CEV2ZTUgoC8v1tWK8x/SfWsVvR8xrzflDKb9Xvp0goC7MaUv1I+8OgE0N+/wDMCiYK8Xh4xL8QHoTTnBpYFwVdn9YiZtefi3v+YgmcK8L/AMQxm9NB9oKAt3jXHmfSJbwGx70p5wPveQ7XhjOUbfSHpALQavU+H31h1Ho3aAt4pxX2Ie7uefjC0gFJD+VniOUjUekU70aVrzIt9NYdEzo/Zj/MFAW7tRFCfF/tERL6h7ivh4RA5iej+fSnWJbs3b7m72gAaYlN+fq31iiYSXZJbn/cEPX5SKUOsMhmFa9282vf0hoARSDyP06Q2U9PKClzKF3ewdh/VopX4mNpjIZyK3HOtG05j+IsDs5s9Wo371hQoBk0WA11Y+62iPItUc+XP3yhoUIQksbKs2lBzPUO3lEFltCdXoHD9b6woUaregJS1OHJI58hT2fWEqc1X7U9uawoUFbgQRMBtSl6A16d284dM4mr5g5vpyb3pChQ2gJ/iOoa/OImYOt+YHWxhQoNKGITKkt6v6ekNNn3ZRfxY6t00h4UCihAWUqNyfD28FS0MCCK0dgbdSYUKCT8AyaZjWA7V9TEJq69w/7e+sKFCASVN2Pn61hKmg0fXkPfOFCjVDLDMDfsW/vtECat7IhQozQh1H/Ev79+cRWrXqx/bvWFCgQEkmop69/B4kZtX8beHjChQUBIT2trTk3m0RMwEcIJuenL9oUKClVgSQGDlLdHELd0dhWzmnlChRgCSpJ1ZLcjWjaGHYdTWjEevvSFCgW6AlNxAA4Uvc3PnSEie4dtL/bpQGHhQ6VAVTJ2Uc9HAvW/nDoUaEkPceXpChQ6ArM0s1Hf6w8ubzGYvev7woUD4A//2Q==
  * file per style scope.
  *
+ *= require foundation.min
+ *= require banner-theme
  *= require_tree .
  *= require_self
  */
+
+.hero {
+  background-image: url("http://www.sierramay.co.uk/wp-content/uploads/2014/08/revisedsierramay2.png");
+}

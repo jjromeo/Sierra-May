@@ -15,7 +15,7 @@
       controller: 'ProductShowCtrl'
     }).
     otherwise({
-      templateUrl: '../templates/home.html',
+      templateUrl: '../templates/home.html.erb',
       controller: 'HomeCtrl'
     })
 
