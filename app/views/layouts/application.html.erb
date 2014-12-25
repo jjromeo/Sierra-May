@@ -39,8 +39,12 @@
         </div>
       </section>
 <section class="hero-content"> 
-  <div ng-view>
-    <%= yield %>
+  <div class="row">
+    <div class="large-8 columns about-content">
+      <div ng-view>
+        <%= yield %>
+      </div>
+    </div>
   </div>
 </section>
 
